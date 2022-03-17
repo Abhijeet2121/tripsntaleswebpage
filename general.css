@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+*:focus{
+    box-shadow: 0 0 0 .2rem rgb(22, 163, 74, 0.50);
+}
+body{
+    font-family: 'Raleway';
+    line-height: 1;
+    font-weight: 500;
+    color: #555;
+    overflow-x:hidden;
+}
+.btn{
+    height: 4.8rem;
+    width: 4.8rem;
+    background:transparent;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.section-hero{
+    padding: 3.2rem;
+}
+.section-testimonial{
+    padding: 3.2rem;
+}
+.section-blog{
+    padding: 3.6rem ;
+    background-color: #070707;
+}
+.reviews{
+    padding: 3.2rem;
+}
+.footer{
+    padding:3.2rem ;
+    background-color: #070707;
+    position: relative;
+}
